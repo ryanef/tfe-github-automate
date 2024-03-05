@@ -23,6 +23,13 @@ locals {
       gitignore_template = "Terraform"
       visibility = "public"
     }
+    tfe-aws-lb-automate = {
+      name = "tfe-aws-lb-automate"
+      owner = var.GITHUB_OWNER
+      description = "terraform cloud aws loadbalancer automation"
+      gitignore_template = "Terraform"
+      visibility = "public"
+    }
 
   }
 }

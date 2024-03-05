@@ -16,5 +16,13 @@ locals {
       visibility = "public"
     }
 
+    tfe-aws-vpc-automate = {
+      name = "tfe-aws-vpc-automate"
+      owner = var.GITHUB_OWNER
+      description = "terraform cloud aws vpc automation"
+      gitignore_template = "Terraform"
+      visibility = "public"
+    }
+
   }
 }

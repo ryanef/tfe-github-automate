@@ -3,7 +3,7 @@ terraform {
     organization = "ryanfmain"
 
     workspaces {
-      name = "tfe-github"
+      name = "tfe-github-automate"
     }
   }
 }

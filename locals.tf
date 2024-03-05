@@ -8,8 +8,8 @@ locals {
       visibility = "public"
     }
     
-    tfe-automate = {
-      name = "tfe-automate"
+    tfe-workspaces = {
+      name = "tfe-workspaces"
       owner = var.GITHUB_OWNER
       description = "terraform cloud workspaces automation"
       gitignore_template = "Terraform"

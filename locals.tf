@@ -36,6 +36,13 @@ locals {
       name = "ryanfdev"
       owner = var.GITHUB_OWNER
       description = "ryanfdev site"
+      gitignore_template = "Node"
+      visibility = "public"
+    }
+    ryanfdev-tf = {
+      name = "ryanfdev-tf"
+      owner = var.GITHUB_OWNER
+      description = "Terraform site"
       gitignore_template = "Terraform"
       visibility = "public"
     }
